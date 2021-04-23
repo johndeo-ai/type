@@ -27,3 +27,6 @@ jobs:
         uses: helaili/jekyll-action@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: jekyll-deploy-gh-pages
+        uses: BryanSchuetz/jekyll-deploy-gh-pages@v2.0
