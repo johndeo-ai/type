@@ -32,4 +32,4 @@ jobs:
         uses: hendrixjoseph/jekyll-tag-page-generator-action@master
         with:
           source: "https://johndeo-ai.github.io/type/tags.json"
-          destination: "./tags/"
+          destination: "./tag/"
