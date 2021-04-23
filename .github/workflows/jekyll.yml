@@ -29,8 +29,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           
       - name: Generate the set of tag pages.
-      - uses: actions/checkout@v2
-      - uses: hendrixjoseph/jekyll-tag-page-generator-action@master
+        uses: hendrixjoseph/jekyll-tag-page-generator-action@master
         with:
           source: "https://johndeo-ai.github.io/type/tags.json"
           destination: "./tags/"
